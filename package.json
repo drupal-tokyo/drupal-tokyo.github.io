@@ -1,0 +1,17 @@
+{
+  "name": "drupal-tokyo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/browser-sync start --server --files '**/*'  & node_modules/.bin/node-sass ./assets/scss/styles.scss ./assets/css/styles.css -w "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "http-server": "^0.11.1",
+    "node-sass": "^4.9.2"
+  }
+}
