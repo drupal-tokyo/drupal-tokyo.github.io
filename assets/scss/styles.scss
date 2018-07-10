@@ -24,6 +24,11 @@ $screen-lg:                  1200px !default;
   }
 }
 
+// BASE
+body {
+  padding-top: 56px; // For Fixed header spacing.
+}
+
 // LAYOUT
 .section {
   min-height: 30vw;
