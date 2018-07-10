@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node_modules/.bin/browser-sync start --server --files '**/*'  & node_modules/.bin/node-sass ./assets/scss/styles.scss ./assets/css/styles.css -w "
+    "start": "node_modules/.bin/browser-sync start --server --files '**/*'  & node_modules/.bin/node-sass ./assets/scss/styles.scss ./assets/css/styles.css --output-style compressed -w "
   },
   "author": "",
   "license": "ISC",
