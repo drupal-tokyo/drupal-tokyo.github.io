@@ -18,62 +18,77 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link smooth-scroll" href="#about">About</a>
+          <a class="nav-link smooth-scroll" href="#events">Events</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#events">Events</a>
+          <a class="nav-link smooth-scroll" href="#about">About</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
-<section id="about" class="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2>About Us</h2>
-        <p>Drupalに関する話題を気軽に情報交換できる場を定期的に開催します。</p>
-        <p>Japan Drupal Meetup is a place where Drupal-related topics could be discussed and information exchanged more freely.</p>
-      </div>
-    </div>
-  </div>
+<section id="hero-area" class="section hero-area d-flex align-items-center justify-content-center mb-5">
+  <h1 class="page-title py-2">Drupal Meetup Tokyo</h1>
 </section>
 
-<section id="events" class="events">
+<section id="events" class="section events mb-5">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2>イベント情報</h2>
-        <div class="event-list">
-          <div class="card mb-3">
+        <h2>近日開催のイベント</h2>
+        <div class="event-list upcaming-event-list mb-5">
+          <!-- 近日開催イベント -->
+          <div class="card event mb-3 d-md-flex flex-lg-row flex-md-nowrap">
+            <img class="card-img" src="./assets/images/chaw-e1484043658640.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Drupal Meetup Tokyo #24</h5>
-              <h6 class="card-subtitle mb-2 text-muted">2018年7月12日 @ 株式会社ゼロベース</h6>
+              <p class="card-subtitle mb-2 info">
+                開催日時：2018年7月12日19:30〜21:00
+                <br> 場所：株式会社ゼロベース
+              </p>
               <p class="card-text">トピックを参加者全員で語り合う形式です。<br /> 
                 分からないキーワードが登場したら即質問OK、もちろん聴いているだけでもOKです！<br />
                 今回は3つの視点からモジュールを語り合います。</p>
-              <a href="https://drupal-tokyo.connpass.com/event/91268/" class="card-link btn btn-primary" target="_blank">参加登録・詳細を見る</a>
+              <a href="https://drupal-tokyo.connpass.com/event/91268/" class="card-link btn btn-primary" target="_blank"><span class="event-register">参加登録・</span><span class="event-detail">詳細を見る</span></a>
             </div>
           </div>
-          <div class="card mb-3">
+        </div>
+        <h2>過去のイベント</h2>
+        <div class="event-list event-list-past">
+          <!-- 過去のイベント -->
+          <div class="card event mb-3">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <h5 class="card-title">Drupal Meetup Tokyo #23</h5>
+              <p class="card-subtitle mb-2 info">
+                開催日時：2018年7月12日19:30〜21:00<br>
+                場所：株式会社ゼロベース
+              </p>
+              <p class="card-text">トピックを参加者全員で語り合う形式です。
+                <br /> 分からないキーワードが登場したら即質問OK、もちろん聴いているだけでもOKです！
+                <br /> 今回は3つの視点からモジュールを語り合います。
+              </p>
+              <a href="https://drupal-tokyo.connpass.com/event/91268/" class="card-link btn btn-secondary" target="_blank"><span class="event-register">参加登録・</span><span class="event-detail">詳細を見る</span></a>
             </div>
           </div>
-          <div class="card mb-3">
+          <div class="card event mb-3">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <h5 class="card-title">Drupal Meetup Tokyo #22</h5>
+              <p class="card-subtitle mb-2 info">
+                開催日時：2018年7月12日19:30〜21:00
+                <br> 場所：株式会社ゼロベース
+              </p>
+              <p class="card-text">トピックを参加者全員で語り合う形式です。
+                <br /> 分からないキーワードが登場したら即質問OK、もちろん聴いているだけでもOKです！
+                <br /> 今回は3つの視点からモジュールを語り合います。
+              </p>
+              <a href="https://drupal-tokyo.connpass.com/event/91268/" class="card-link btn btn-secondary" target="_blank">
+                <span class="event-register">参加登録・</span>
+                <span class="event-detail">詳細を見る</span>
+              </a>
+              </div>
             </div>
           </div>
         </div>
@@ -82,7 +97,20 @@
   </div>
 </section>
 
-<footer>
+<section id="about" class="section about d-flex align-items-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>About Us</h2>
+        <h4>Drupal Meetup Tokyoとは</h4>
+        <p>Drupalに関する話題を気軽に情報交換できる場を定期的に開催します。</p>
+        <p>Japan Drupal Meetup is a place where Drupal-related topics could be discussed and information exchanged more freely.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer py-3">
   <div class="container">
     <div class="row">
       <div class="col-12">
