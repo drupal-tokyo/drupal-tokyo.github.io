@@ -10,4 +10,4 @@
 2. cd drupal-tokyo
 3. npm install
 4. npm start
-5. http://localhost:3000/にアクセス
+5. [http://localhost:3000/](http://localhost:3000/)にアクセス
