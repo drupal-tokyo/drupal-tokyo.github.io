@@ -1,15 +1,19 @@
 {
-  "name": "drupal-tokyo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@example/blog",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "start": "node_modules/.bin/browser-sync start --server --files '**/*'  & node_modules/.bin/node-sass ./assets/scss/styles.scss ./assets/css/styles.css --output-style compressed -w "
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "browser-sync": "^2.26.14",
-    "node-sass": "^6.0.0"
+  "dependencies": {
+    "astro": "^1.4.5",
+    "@astrojs/mdx": "^0.11.4",
+    "@astrojs/rss": "^1.0.2",
+    "@astrojs/sitemap": "^1.0.0"
   }
 }

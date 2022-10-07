@@ -1,0 +1,28 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+---
+
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={SITE_TITLE} />
+		<main>
+			<h1>Drupal Meetup Tokyoとは</h1>
+			<p>Drupalに関する話題を気軽に情報交換できるイベントを定期的に開催します。</p>
+			<p>Japan Drupal Meetup is a place where Drupal-related topics could be discussed and information exchanged more freely.</p>
+			<p class="center"><img src="./dmt-black_500x500.png" alt="Drupal Meetup Tokyo logo"></p>
+		</main>
+		<Footer />
+	</body>
+</html>
+<style>
+	p.center {
+		text-align: center;
+	}
+</style>
