@@ -47,3 +47,9 @@
 - Advent Calendar
     - https://qiita.com/advent-calendar/2021/drupal
     - https://qiita.com/advent-calendar/2022/drupal
+
+## 次回
+
+12/1 (木) 19:30 〜
+
+おすすめモジュール・テーマ
