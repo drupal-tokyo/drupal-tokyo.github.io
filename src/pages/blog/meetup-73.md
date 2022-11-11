@@ -1,3 +1,10 @@
+---
+layout: "../../layouts/BlogPost.astro"
+title: "Drupal Meetup Tokyo #73"
+description: "Drupal Meetup Tokyo #73がオンラインで開催されました。"
+pubDate: "2022/11/10"
+---
+
 ## 前回のTodo
 
 - meetup用のgithubリポジトリを作成する。
