@@ -40,7 +40,7 @@ pubDate: "2023/4/6"
 - Stable Diffusion / 3060 VRAM 12GB で 動く
 - Midjourney
 - 高スペックマシンがあれば、ローカル上で機密データ食わせまくれる
-- [North](https://www.fractal-design.com/ja/products/cases/north/) <- おしゃれなゲーミングPC
+- [North](https://www.fractal-design.com/ja/products/cases/north/) <- おしゃれなゲーミングPCケース
 
 ## 次回
 
